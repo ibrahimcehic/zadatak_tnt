@@ -1,6 +1,21 @@
+
+
+<!-- <div class="container">
+   <app-header></app-header>
+   <router-outlet></router-outlet>
+    <app-footer></app-footer>
+
+</div> -->
 <!---->
-<app-header></app-header>
+
 <!-- <app-about></app-about>
 <app-contact></app-contact> -->
-<router-outlet></router-outlet>
-<app-footer></app-footer>
+
+<div class="row">
+    <div class="col-3">
+        <app-calendar-month></app-calendar-month>
+    </div>
+    <div class="col-9">
+        <app-calendar-week *ngIf="listaEvenata" [listaNasledjena]="listaEvenata"></app-calendar-week>
+    </div>
+</div>

@@ -4,15 +4,15 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
-  {
-    path:'about',
+  // {
+  //   path:'about',
     
-    component:AboutComponent
-  },
-  {
-    path:'contact',
-    component:ContactComponent
-  }
+  //   component:AboutComponent
+  // },
+  // {
+  //   path:'contact',
+  //   component:ContactComponent
+  // }
 ];
 
 @NgModule({
